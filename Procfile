@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.example.HelloWorld
+web: java $JAVA_OPTS -jar target/lost-animal-searcher.war --server.port=$PORT target/*.wars
